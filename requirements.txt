@@ -1,2 +1,0 @@
-yfinance==0.1.63
-plotly==5.7.0

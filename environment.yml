@@ -1,11 +1,10 @@
 name: c964
 channels:
   - conda-forge
-  - anaconda
-  - defaults
-dependancies:
+dependencies:
+  - python
+  - numpy
   - pip
   - pip:
-    - yfinance==0.1.63
-    - plotly==5.7.0
-prefix: C:\Users\xjayc\anaconda3\envs\c964
+    - yfinance
+    - plotly
